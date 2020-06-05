@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.guo.duoduo.wifidetective"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <application
+        android:name=".ui.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.DeviceScanActivity"
+            android:label="@string/title_activity_device_scan"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.WiFiScanActivity"
+            android:label="@string/title_activity_wi_fi_scan"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.HotSpotActivity"
+            android:label="@string/title_activity_hot_spot"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.PingActivity"
+            android:label="@string/title_activity_ping">
+        </activity>
+    </application>
+
+</manifest>
