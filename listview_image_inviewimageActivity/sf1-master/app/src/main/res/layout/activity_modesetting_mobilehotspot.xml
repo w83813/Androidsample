@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181f2f"
+    android:orientation="vertical"
+    tools:context=".APmode">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:background="#89F7E5"
+        android:scaleType="centerInside"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/mobilehotspot" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/MH_mode_200or300IPlinkPhone"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_2"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_3"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_4"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/MH_mode_input200or300IP"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_5"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/MH300IP"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:digits="0123456789."
+        android:paddingLeft="7dp"
+        android:textSize="17dp"
+        tools:text="111111111111" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/AS_setting_6"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/MHDIBIP"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:digits="0123456789."
+        android:paddingLeft="7dp"
+        android:textSize="17dp"
+        tools:text="1111111111" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayoutEdit"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/MHsave"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Save"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

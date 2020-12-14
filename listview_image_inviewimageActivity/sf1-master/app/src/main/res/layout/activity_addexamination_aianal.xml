@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".AIanal">
+
+    <LinearLayout
+        android:id="@+id/report_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_marginLeft="5pt"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5pt"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/MA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#666666"
+                android:checked="true"
+                android:paddingLeft="15dp"
+                android:text="MA"
+                android:textColor="@color/colorWhite"
+                android:textOff="0"
+                android:textOn="1"
+                android:textSize="10sp"
+                app:theme="@style/SwitchMA" />
+
+            <Switch
+                android:id="@+id/HEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#666666"
+                android:checked="true"
+                android:paddingLeft="15dp"
+                android:text="HEM"
+                android:textColor="@color/colorWhite"
+                android:textOff="0"
+                android:textOn="1"
+                android:textSize="10sp"
+                app:theme="@style/SwitchHEM" />
+
+            <Switch
+                android:id="@+id/HE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#666666"
+                android:checked="true"
+                android:paddingLeft="15dp"
+                android:text="HE"
+                android:textColor="@color/colorWhite"
+                android:textOff="0"
+                android:textOn="1"
+                android:textSize="10sp"
+                app:theme="@style/SwitchHE" />
+
+            <Switch
+                android:id="@+id/CWS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#666666"
+                android:checked="true"
+                android:paddingLeft="15dp"
+                android:text="CSW"
+                android:textColor="@color/colorWhite"
+                android:textOff="0"
+                android:textOn="1"
+                android:textSize="10sp"
+                app:theme="@style/SwitchCWS" />
+
+        </LinearLayout>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/dr"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="TextView" />-->
+
+        <com.example.miis200.ZoomLinearLayout
+            android:id="@+id/zoom_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center">
+
+            <FrameLayout
+                android:id="@+id/Analimg"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/circleborder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/MAimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/HEMimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/HEimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/CWSimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+            </FrameLayout>
+
+
+        </com.example.miis200.ZoomLinearLayout>
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/screenShort"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="100dp" />-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="13pt"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/linechart1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:text="DR Level"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="No DR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/NoDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/NoDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="Mild NPDR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/MildNPDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/MildNPDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="Moderate NPDR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/ModerateNPDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/ModerateNPDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="Severe NPDR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/SevereNPDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/SevereNPDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="PDR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/PDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/PDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="13pt"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/linechart1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:text="Refer to Doctor"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnbar"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="1.5pt">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:text="Referable DR"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ProgressBar
+                android:id="@+id/ReferableDRprogressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="80dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progress_horizontal" />
+
+            <TextView
+                android:id="@+id/ReferableDRtext"
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:background="@drawable/border1"
+            android:gravity="center"
+            android:text="MEMO"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/border1"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="false"
+            android:scrollHorizontally="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Capture"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Save_image"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/AIsave_pdf"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Save"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/AIview_pdf"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Print"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/AIshare"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Share"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/AIcancel"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/primary_button"
+            android:text="@string/Back"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

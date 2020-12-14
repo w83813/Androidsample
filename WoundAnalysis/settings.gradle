@@ -1,0 +1,2 @@
+rootProject.name='WoundAnalysis'
+include ':app'

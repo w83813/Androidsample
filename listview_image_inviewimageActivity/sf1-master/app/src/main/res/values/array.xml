@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Branch">
+        <item>眼科</item>
+        <item>耳科</item>
+        <item>鼻喉科</item>
+        <item>皮膚科</item>
+    </string-array>
+
+    <string-array name="Settinggroup">
+        <item>語言設定</item>
+        <item>裝置設定</item>
+        <item>聯繫晉弘</item>
+        <item>登出</item>
+    </string-array>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>簡體中文</item>
+        <item>繁體中文</item>
+    </string-array>
+
+    <string-array name="Wifi">
+        <item>前往設定</item>
+    </string-array>
+
+    <string-array name="Contact">
+        <item>台灣晉弘</item>
+        <item>東莞晉弘</item>
+    </string-array>
+
+    <string-array name="Logout">
+        <item>登出</item>
+    </string-array>
+
+
+
+</resources>

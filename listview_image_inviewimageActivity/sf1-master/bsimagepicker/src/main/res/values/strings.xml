@@ -1,0 +1,10 @@
+<resources>
+    <string name="imagepicker_multiselect_done">Done</string>
+    <string name="imagepicker_multiselect_not_enough_singular">您至少要選取 1 張照片</string>
+    <string name="imagepicker_multiselect_not_enough_plural">您至少要選取 %d 張照片</string>
+    <string name="imagepicker_multiselect_enough_singular">您已選取 1 張照片</string>
+    <string name="imagepicker_multiselect_enough_plural">您已選取 %d 張照片</string>
+    <string name="imagepicker_multiselect_overselect">最多選取 %d 張照片</string>
+    <string name="imagepicker_gallery_intent_title">Select Multiple Images</string>
+    <string name="imagepicker_no_image_text_view">There are no image in your device.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="colorPrimary">#6495ED</color>
+    <color name="colorPrimaryDark">#4169e1</color>
+    <color name="colorMediumblue">#0000CD</color>
+    <color name="midnightblue">#191970</color>
+    <color name="colorAccent">#00E6FF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorDeeppink">#FF1493</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorLimegreen">#32cd32</color>
+    <color name="colorOrangered">#ff4500</color>
+    <color name="colorDarkviolet">#9400D3</color>
+    <color name="photoFalse">#181f2f</color>
+    <color name="photoTrue">#004B97</color>
+    <color name="progress">#DDDDDD</color>
+    <color name="progress1">#505050</color>
+
+    <color name="MA">#FFFF00</color>
+    <color name="HEM">#00FF00</color>
+    <color name="HE">#0033ff</color>
+    <color name="CWS">#00FFFF</color>
+
+    <color name="color_button_primary">#4B87FF</color>
+    <color name="color_button_primary_pressed">#87CEFA</color>
+
+
+</resources>

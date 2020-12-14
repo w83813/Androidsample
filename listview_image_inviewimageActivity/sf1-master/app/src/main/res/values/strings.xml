@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">HORUS</string>
+
+    <!--Addexamination-->
+    <string name="Addex_title">尚未檢查客戶</string>
+    <string name="Addex_not_client">無客戶等待檢查</string>
+
+    <!--Addexamination_exam-->
+    <string name="Addex_exam_title">新增檢查</string>
+    <string name="Addex_exam_1_IP_invalid_2_check_DSC_status_3_check_DSC_IP"> 1. 該 IP 無效。\n2. 請確認眼底鏡開機狀態。\n3. 請確認眼底鏡 IP 是否正確。</string>
+    <string name="Addex_exam_DSC_not_link_AP">眼底鏡尚未連上AP</string>
+    <string name="Addex_exam_DSC_linking">連接眼底鏡中</string>
+    <string name="Addex_exam_unlink_check_AP_status">已斷線，請確認無線 AP 開機狀態！！</string>
+    <string name="Addex_exam_unlink_check_DSC_status">已斷線，請確認眼底鏡開機狀態！！</string>
+    <string name="Addex_exam_please_use_photo_or_photolibrary">請使用眼底相機拍照或者到相簿選取照片</string>
+    <string name="Addex_exam_choose_add_image_type">請選擇照片輸入方式</string>
+    <string name="Addex_exam_MH_1_check_hotspot_2_check_DSC_status_2_check_IP">1. 請確認手機熱點是否開啟\n2. 請確認眼底鏡開機狀態\n3. 請確認 IP 是否正確</string>
+
+
+    <!--Addexamination_aianal-->
+    <string name="Addex_aianal_title">分析結果</string>
+    <string name="Addex_aianal_client_data_full">該客戶儲存空間已滿</string>
+
+
+    <!--AddPatient-->
+    <string name="AddPatient_this_patient_unfinish">該病患上次檢查，尚未完成</string>
+    <string name="AddPatient_info_incomplete">資料輸入不完全</string>
+
+    <!--Dialog_DEC-->
+    <string name="Dialog_DEC_1_check_DSC_status_2_check_SSID_setting">1. 請確認眼底鏡開機狀態。\n2. 確認 SSID 設定是否正確。</string>
+
+    <!--Dialog_DIB-->
+    <string name="Dialog_DIB_1_check_DIB_status_2_check_SSID_setting">1. 請確認 DIB 開機狀態。\n2. 確認 SSID 設定是否正確。</string>
+
+    <!--Dialog_Memory-->
+    <string name="Dialog_Memory">請重新啟動DIB</string>
+
+    <!--Dialog_Printer-->
+    <string name="Dialog_Printer_1_check_Printer_status_2_check_SSID_setting">1. 請確認印表機開機狀態。\n2. 確認 SSID 設定是否正確。</string>
+
+    <!--Dialog_Tryagain-->
+    <string name="Dialog_Again">請在試一次</string>
+
+    <!--Login-->
+    <string name="Login_login_success">登入成功</string>
+    <string name="Login_Account_or_Password_fail">帳號密碼錯誤，請重新輸入</string>
+
+    <!--GO home message-->
+    <string name="Go_home_title">返回首頁</string>
+    <string name="Go_home_message">返回首頁後剛剛所輸入的資料將不被保留！！</string>
+
+    <!--Cancel message-->
+    <string name="Cancel_title">取消確認</string>
+    <string name="Cancel_message">取消後剛剛所輸入的資料將不被保留</string>
+
+    <!--Back message-->
+    <string name="Back_title">返回確認</string>
+    <string name="Back_message">返回後剛剛所輸入的資料將不被保留！！</string>
+
+    <!--Choose image message-->
+    <string name="Choose_image_title">選擇照片</string>
+    <string name="Choose_image_max_4_image">最多選取4張照片</string>
+    <string name="Choose_image_not_choose">尚未選取照片</string>
+
+    <!--Report-->
+    <string name="Report_title">檢查報告</string>
+    <string name="Report_linking_printer">連接印表機中...</string>
+    <string name="Report_go_home_message">返回後此報告將不被保留！！</string>
+
+    <!--Viewimage-->
+    <string name="Viewimage_title">閱片</string>
+    <string name="Viewimage_view_finish_check">是否完成閱片 ?</string>
+    <string name="Viewimage_1_check_ap_2_check_ssid_setting"> 1. 請確認 AP 開機狀態。\n2. 請確認 SSID 設定是否正確。</string>
+    <string name="Viewimage_Analyzing">分析中</string>
+    <string name="Viewimage_1_IP_invalid_2_check_DIB_status_3_check_DIB_IP"> 1. 該 IP 無效。\n2. 請確認 DIB 開機狀態。\n3. 請確認 DIB IP 是否正確。</string>
+    <string name="Viewimage_1_check_DIB_status_2_check_DIP_IP">1. 請確認 DIB 開機狀態。\n2. 請確認 DIB IP 是否正確。</string>
+    <string name="Viewimage_1_check_hotsopt_ONorOFF_2_check_DIB_status_3_check_IP">1. 請確認熱點是否開啟。\n2. 確認 DIB 開機狀態。\n3. 請確認 IP 輸入是否正確。</string>
+
+    <!--Modesetting-->
+    <string name="Modesetting_title">模式及裝置設定</string>
+    <string name="Modesetting_setting_succ">設定成功</string>
+
+    <!--Modesetting_apmode-->
+    <string name="Modesetting_apmode_title">AP mode 設定</string>
+    <string name="Modesetting_3_DSC_link_AP">3. DSC 300 連接無線 AP</string>
+    <string name="Modesetting_6_input_DSC_IP">6. 請輸入 DSC 300 IP</string>
+    <string name="Modesetting_3_DEC_link_AP">3. DEC 200 連接無線 AP</string>
+    <string name="Modesetting_6_input_DEC_IP">6. 請輸入 DEC 200 IP</string>
+
+    <!--Modesetting_autoswitch-->
+    <string name="Modesetting_autoswitch_title">Auto switch 設定</string>
+    <string name="Modesetting_autoswitch_1_input_DSC_SSID_passwoord">1. 請輸入DSC 300 SSID 和 Password</string>
+    <string name="Modesetting_autoswitch_1_input_DEC_SSID_passwoord">1. 請輸入DEC 200 SSID 和 Password</string>
+
+    <!--Modesetting_mobilehotspot-->
+    <string name="Modesetting_mobilehotspot_title">Mobile hotspot設定</string>
+    <string name="Modesetting_mobilehotspot_2_DSC_link_hotspot">2. DSC 300連接手機熱點</string>
+    <string name="Modesetting_mobilehotspot_2_DEC_link_hotspot">2. DEC 200連接手機熱點</string>
+
+    <!--Printerwait-->
+    <string name="Printerwait_title">等待列印客戶</string>
+    <string name="Printerwait_not_client_wait_printer">無客戶等待打印</string>
+
+    <!--Review-->
+    <string name="Review_title">回顧</string>
+    <string name="Review_file_path">資料路徑</string>
+    <string name="Review_total_file">檔案總數</string>
+    <string name="Review_cant_view_PDF">無法檢視PDF檔</string>
+
+    <!--Viewwait-->
+    <string name="Viewwait_title">等待閱片客戶</string>
+    <string name="Printerwait_not_client_wait_view">無客戶等待閱片</string>
+
+    <string name="Add_success">新增成功</string>
+    <string name="PDF_create_success">已建立 PDF 檔</string>
+    <string name="PDF_create_fail">建立失敗</string>
+    <string name="Please_wait">請稍等...</string>
+    <string name="Alert">Alert</string>
+    <string name="Linking_AP">連接無線 AP</string>
+    <string name="Add">新增</string>
+    <string name="Success">成功</string>
+    <string name="Exit">您真的要離開 ?</string>
+    <string name="Open">開啟</string>
+    <string name="Linking">已連線</string>
+
+
+    <!-- xml -->
+    <string name="Name">姓名</string>
+    <string name="Gender">性別</string>
+    <string name="Save_image">儲存圖片</string>
+    <string name="Save">儲存</string>
+    <string name="Print">打印</string>
+    <string name="Share">分享</string>
+    <string name="Back">返回</string>
+    <string name="Cancel">取消</string>
+    <string name="Photo_original">原照片</string>
+    <string name="Photo_AI">分析照片</string>
+    <string name="Birthady">生日</string>
+    <string name="Phone">電話</string>
+    <string name="Check_date">檢查日期</string>
+    <string name="Viewimage">閱片</string>
+    <string name="Check_finish">完成檢查</string>
+    <string name="View_finish">完成閱片</string>
+    <string name="Print_Share">打印/分享</string>
+    <string name="Account">帳號</string>
+    <string name="Password">密碼</string>
+    <string name="Login">登入</string>
+    <string name="Choose_mode">選擇模式 :</string>
+    <string name="Choose_device">選擇裝置 :</string>
+    <string name="Add_client">新增客戶</string>
+    <string name="Add_exam">新增檢查</string>
+    <string name="wait_view">等待閱片</string>
+    <string name="wait_print">等待列印</string>
+    <string name="Setting">設定</string>
+
+
+    <!--AP setting-->
+    <string name="AP_setting_1">1. 開啟無 AP</string>
+    <string name="AP_setting_2">2. 手機連接無線 AP</string>
+    <string name="AP_setting_3">3. DSC 300 連接無線 AP</string>
+    <string name="AP_setting_4">4. DIB 連接無線 AP</string>
+    <string name="AP_setting_5">5. 印表機連接無線 AP</string>
+    <string name="AP_setting_6">6. 請輸入 DSC 300 IP</string>
+    <string name="AP_setting_7">7. 請輸入 DIB IP</string>
+
+    <!--MH setting-->
+    <string name="MH_setting_1">1. 請輸入DSC 300 SSID 和 Password</string>
+    <string name="MH_setting_2">2. 請輸入DIB SSID 和 Password</string>
+    <string name="MH_setting_3">3. 請輸入Printer SSID 和 Password</string>
+    <string name="MH_setting_4">4. 請輸入Hub SSID 和 Password</string>
+
+    <!--AS setting-->
+    <string name="AS_setting_1">1. 開啟手機熱點</string>
+    <string name="AS_setting_2">2. DSC 300連接手機熱點</string>
+    <string name="AS_setting_3">3. DIB 連接手機熱點</string>
+    <string name="AS_setting_4">4. 印表機連接手機熱點</string>
+    <string name="AS_setting_5">5. 請輸入 DSC 300 IP</string>
+    <string name="AS_setting_6">6. 請輸入 DIB IP </string>
+
+
+    <!--xml report-->
+    <string name="Report">檢查報告</string>
+    <string name="Report_name">姓名: </string>
+    <string name="Report_check_date">檢查日期: </string>
+    <string name="Report_Info">個人訊息</string>
+    <string name="Report_report_date">報告日期: </string>
+    <string name="Report_age">年齡: </string>
+    <string name="Report_gender">性別: </string>
+    <string name="Report_phone">電話: </string>
+    <string name="Report_Doctor">醫師 : _______________________</string>
+
+
+</resources>

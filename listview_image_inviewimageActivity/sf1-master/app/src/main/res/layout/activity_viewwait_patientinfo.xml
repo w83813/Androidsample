@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #181f2f">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:stretchColumns="0,1,2">
+
+        <TableRow android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" 檢查日期 "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Check_Time"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" 姓名 "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CheckPatientName"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" ID"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CheckPatientID"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+        </TableRow>
+
+
+        <TableRow android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" 生日"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CheckPatientBir"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" 性別"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CheckPatientGender"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:text=" 電話"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CheckPatientPhone"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background=" #181f2f"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="#415262"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#415262"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/Leye"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/Reye"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/waitVeyeP8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/viewimage"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button"
+            android:text="@string/Viewimage"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/printer"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button"
+            android:text="@string/Print"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cancelWaitviewimg"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>
